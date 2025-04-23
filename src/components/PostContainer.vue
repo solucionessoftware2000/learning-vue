@@ -3,7 +3,6 @@ import PostCard from './PostCard.vue';
 </script>
 
 <template>
-    <h1 class="post-head">Listado de posts:</h1>
     <div class="post-container">
         <PostCard/>
         <PostCard/>
@@ -13,7 +12,9 @@ import PostCard from './PostCard.vue';
 </template>
 
 <style scoped>
-.post-head{
-    color: white;
+.post-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 </style>
