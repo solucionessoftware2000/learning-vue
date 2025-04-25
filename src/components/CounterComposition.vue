@@ -5,7 +5,6 @@ const counter: Ref = ref(0);
 const addCounter = (): void => {
   counter.value++;
 }
-
 </script>
 
 <template>

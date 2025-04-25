@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import CounterComposition from './components/CounterComposition.vue';
+import ExampleFor from './components/ExampleFor.vue';
 </script>
 
 <template>
-  <CounterComposition/>
+  <ExampleFor/>
 </template>
 
 <style scoped>
